@@ -1,4 +1,5 @@
-.technologies {
+.technologies,
+.projectsContainer {
   position: relative;
   height: 90vh;
   min-width: 100vw;
@@ -7,19 +8,22 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.technologyHeader {
+.technologyHeader,
+.projectsHeader {
   position: absolute;
-  left: 50%;
+  left: 43%;
   top: 5%;
   transform: translateX(-50%);
   font-size: 40px;
 }
 
-.technologyHeader .glint {
+.technologyHeader .glint,
+.projectsHeader .glint {
   padding: 0 10px;
 }
 /* creating grid */
 .technologyContainer ul {
+  padding-bottom: 20px;
   justify-content: center;
   align-content: center;
   width: 100vw;
@@ -38,9 +42,9 @@
     "react react react git git git bootstrap bootstrap bootstrap"
     "react react react git git git bootstrap bootstrap bootstrap"
     "react react react git git git bootstrap bootstrap bootstrap"
-    "sass sass sass npm npm npm . . ."
-    "sass sass sass npm npm npm . . ."
-    "sass sass sass npm npm npm . . .";
+    "sass sass sass npm npm npm rwd rwd rwd"
+    "sass sass sass npm npm npm rwd rwd rwd"
+    "sass sass sass npm npm npm rwd rwd rwd";
 }
 .html5 {
   grid-area: html;
@@ -66,6 +70,9 @@
 .npm {
   grid-area: npm;
 }
+.rwd {
+  grid-area: rwd;
+}
 
 .technologyContainer ul li {
   position: relative;
@@ -81,4 +88,13 @@
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.glint {
+  opacity: 0;
+  /* transition: 0.8s; */
+}
+
+.glint.active {
+  opacity: 1;
 }

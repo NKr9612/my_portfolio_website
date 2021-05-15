@@ -1,6 +1,10 @@
 import '../Styles/Technologies.css';
 
-import {FaGitAlt, FaCss3Alt, FaReact, FaHtml5, FaJs, FaBootstrap, FaSass, FaNpm} from "react-icons/fa";
+import React, { useState } from 'react';
+
+import Flip from 'react-reveal/Reveal';
+
+import {FaGitAlt, FaCss3Alt, FaReact, FaHtml5, FaJs, FaBootstrap, FaSass, FaNpm, FaMobileAlt} from "react-icons/fa";
 
 const styles= {
     position: 'absolute', left: '50%', top: '50%',
@@ -10,13 +14,27 @@ const styles= {
 };
 
 const Technologie = () => {
+
+    const [glint, setGlint] = useState(true);
+
+//    setInterval(()=>(setGlint(!glint)),1000); - aplikacja się sypie, czemu?
+
+   let timer = setTimeout(function myTimer() {  
+    setGlint(!glint)
+    timer = setTimeout(setGlint(!glint), 1000); 
+ }, 1000);
+    
+   const glintCheck = glint? 'active' : "something";
+
     return (
         <div className="technologies">
+            <Flip left>
             <h1 className='technologyHeader'>
-                <span className='glint'>[</span>
+                <span className={`glint ${glintCheck}`}>[</span>
                 Technologie
-                <span className='glint'>]</span>
+                <span className={`glint ${glintCheck}`}>]</span>
             </h1>
+            </Flip>
             <nav className='technologyContainer'>
                 <ul>
                    <li className="html5">
@@ -52,6 +70,10 @@ const Technologie = () => {
                    <li className="npm">
                        <FaNpm size='5em' color='#C53635'style={styles}/>
                        <p>npm</p>
+                   </li>
+                   <li className="rwd">
+                       <FaMobileAlt size='5em' color='##000000'style={styles}/>
+                       <p>RWD</p>
                    </li>
                 </ul>
             </nav>
