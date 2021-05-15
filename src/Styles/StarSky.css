@@ -1,0 +1,9 @@
+.starSkyCanvas {
+  min-height: 100vh;
+  min-width: 100vw;
+  /* background-image: url("../Imgs/starSky.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  clip-path: polygon(41% 37%, 100% 10%, 100% 50%, 100% 100%, 0 100%, 0 55%);
+  z-index: -1;
+}

@@ -1,0 +1,88 @@
+.navbarMine {
+  position: fixed;
+  z-index: 1;
+  min-height: 10vh;
+  width: 100vw;
+  background-color: #f8f9fa;
+}
+
+.navUl {
+  text-align: right;
+  z-index: 1;
+  margin-right: 20px;
+}
+
+.navUl li {
+  position: relative;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  list-style: none;
+  display: inline;
+  padding: 5px 30px;
+  line-height: 9vh;
+  font-size: 20px;
+  transition: 0.2s;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.navUl li:hover {
+  color: #107b7b;
+  cursor: pointer;
+}
+
+.navUl li span {
+  margin-top: 2px;
+  border-bottom: 2px solid black;
+  width: 70%;
+  text-align: center;
+  position: absolute;
+  left: 12%;
+  /* transform: translateX(30%); */
+  bottom: -40%;
+  background-color: black;
+  transition: 0.3s cubic-bezier(0.99, 0, 0.98, 0.82);
+  opacity: 0;
+}
+
+.navUl li:hover span,
+.navUl li span.activeSpan {
+  bottom: 0;
+  left: 12%;
+  opacity: 1;
+  text-align: center;
+}
+
+.menuOrClose {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(25%, 50%);
+  width: 25px;
+  height: 25px;
+  transition: 0.4s;
+  margin: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .menuOrClose {
+    display: block;
+  }
+  .navUl li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navUl li span {
+    display: none;
+  }
+  .navUl {
+    display: none;
+  }
+  .navUl.active {
+    display: block;
+  }
+}

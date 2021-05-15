@@ -1,0 +1,14 @@
+.frontendName {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 10%;
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  transition: 0.8s;
+  opacity: 0;
+}
+
+#activeName {
+  opacity: 1;
+}

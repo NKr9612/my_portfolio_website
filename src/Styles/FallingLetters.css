@@ -1,0 +1,9 @@
+.fullName {
+  position: absolute;
+  color: white;
+  top: 15%;
+  left: 5%;
+  font-size: 55px;
+  font-family: "Roboto Condensed", sans-serif;
+  /* background-color: gray; */
+}
