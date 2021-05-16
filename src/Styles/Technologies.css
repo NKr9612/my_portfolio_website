@@ -4,7 +4,7 @@
   height: 90vh;
   min-width: 100vw;
   background-image: linear-gradient(#ffffff, #d7e1ec);
-  border-top: 1px dotted black;
+  /* border-top: 1px dotted black; */
   font-family: "Roboto Condensed", sans-serif;
 }
 
