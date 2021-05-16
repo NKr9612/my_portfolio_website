@@ -18,7 +18,8 @@
 }
 
 .technologyHeader .glint,
-.projectsHeader .glint {
+.projectsHeader .glint,
+.contactHeader .glint {
   padding: 0 10px;
 }
 /* creating grid */
@@ -75,6 +76,7 @@
 }
 
 .technologyContainer ul li {
+  list-style: none;
   position: relative;
   transition: 0.4s;
 }
