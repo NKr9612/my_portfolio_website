@@ -1,6 +1,6 @@
 import '../Styles/NavBar.css';
 
-
+import {Link} from 'react-scroll';
 import React, { useState } from 'react';
 
 import {MenuLi} from '../HelperComponents/MenuLi';
@@ -26,7 +26,18 @@ const NavBar = () => {
 
           <ul className={`navUl ${openMenu}`}>
               {MenuLi.map((item, index)=>(
+                <Link  key = {index +1}
+                to={item.url}
+                 activeClass="active"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-50}
+                duration={500}
+                delay={1000}
+                isDynamic={true}>
                  <li key={index}>{item.name}<span></span></li>
+                 </Link>
               ))}
          
           </ul>

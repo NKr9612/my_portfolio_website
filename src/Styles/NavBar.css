@@ -47,7 +47,8 @@
 }
 
 .navUl li:hover span,
-.navUl li span.activeSpan {
+.navUl li.active span,
+ul .active span {
   bottom: 0;
   left: 12%;
   opacity: 1;

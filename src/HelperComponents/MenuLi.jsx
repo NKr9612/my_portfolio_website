@@ -1,18 +1,18 @@
 export const MenuLi = [
     { name: 'Start',
-      url: '#',
+      url: 'home',
     },
     {
         name:'Technologie',
-        url:'#',
+        url:'technologies',
     },
     {
         name:'Projekty',
-        url:'#',
+        url:'projects',
     },
     {
         name:'Kontakt',
-        url:'#',
+        url:'contact',
     }
    
 ]

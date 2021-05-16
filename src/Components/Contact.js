@@ -2,7 +2,7 @@ import '../Styles/Contact.css';
 
 const Contact = () => {
     return (
-        <div className="contact">Kontakt</div>
+        <div className="contactContainer" id='contact'>Kontakt</div>
       );
 }
  

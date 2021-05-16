@@ -9,7 +9,7 @@ const Home = () => {
      
 
     return ( 
-        <div className="homeWrapper">
+        <div className="homeWrapper" id='home'>
         <FallingLetters />
         <FrontendName />
         <StarSky />

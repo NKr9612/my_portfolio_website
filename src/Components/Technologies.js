@@ -19,15 +19,15 @@ const Technologie = () => {
 
 //    setInterval(()=>(setGlint(!glint)),1000); - aplikacja się sypie, czemu?
 
-   let timer = setTimeout(function myTimer() {  
+    setTimeout(function myTimer() {  
     setGlint(!glint)
-    timer = setTimeout(setGlint(!glint), 1000); 
+   setTimeout(setGlint(!glint), 1000); 
  }, 1000);
     
    const glintCheck = glint? 'active' : "something";
 
     return (
-        <div className="technologies">
+        <div className="technologies" id='technologies'>
             <Flip left>
             <h1 className='technologyHeader'>
                 <span className={`glint ${glintCheck}`}>[</span>

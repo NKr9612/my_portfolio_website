@@ -1,3 +1,62 @@
 .projectsContainer {
   background-image: linear-gradient(#d7e1ec 70%, #ffffff);
 }
+
+.projectsMain {
+  position: absolute;
+  top: 25vh;
+  left: 3%;
+  /* background-color: black; */
+}
+.projectsMain .carousel {
+  float: left;
+}
+
+.projectsMain .carousel img {
+  width: 60%;
+  height: 60%;
+  margin-left: 5%;
+}
+
+.projectsMain .carousel h1 {
+  position: absolute;
+  top: 0;
+  right: 15vw;
+}
+
+.projectsMain .carousel .code,
+.projectsMain .carousel .demo {
+  top: 25%;
+  right: 22vw;
+  position: absolute;
+  background-color: #f75719;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.projectsMain .carousel .demo {
+  right: 15vw;
+}
+.projectsMain .carousel .code a,
+.projectsMain .carousel .demo a {
+  text-decoration: none;
+  color: black;
+}
+
+.projectsMain .left,
+.projectsMain .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projectsMain .left {
+  left: 0;
+}
+.projectsMain .right {
+  right: 5%;
+}
