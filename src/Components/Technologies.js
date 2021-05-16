@@ -38,9 +38,7 @@ const Technologie = () => {
             <nav className='technologyContainer'>
                 <ul>
                    <li className="html5">
-                       <div className="wrapperIcon">
                        <FaHtml5 size='5em' color='#DF4E26'style={styles} />
-                       </div>
                        <p>HTML5</p>
                    </li>
                    <li className="css3">

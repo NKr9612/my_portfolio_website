@@ -1,0 +1,17 @@
+@media (max-wdith: 1024px) {
+  .frontendName {
+    font-size: 40px;
+  }
+  .fullName {
+    font-size: 40px;
+  }
+  .technologyContainer {
+    font-size: 30px;
+  }
+  .projectsMain .carousel .carouselH1 {
+    font-size: 35px;
+  }
+  .projectsMain .carousel .demo {
+    right: 10vw;
+  }
+}

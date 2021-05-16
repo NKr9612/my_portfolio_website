@@ -1,4 +1,5 @@
 import './App.css';
+import './Styles/StylesRWD.css';
 
 
 import NavBar from './Components/NavBar';

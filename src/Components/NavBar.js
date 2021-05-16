@@ -34,7 +34,7 @@ const NavBar = () => {
                 hashSpy={true}
                 offset={-50}
                 duration={500}
-                delay={1000}
+                delay={100}
                 isDynamic={true}>
                  <li key={index}>{item.name}<span></span></li>
                  </Link>

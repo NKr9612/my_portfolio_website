@@ -46,8 +46,7 @@ const SwipeEffect = () => {
         <span className='left' onClick={handleLeftSwipe}> <FaAngleLeft size='10x' /> </span>
         <div className="carousel">
             <img src={`${swipeArray[indexOfSwipe].urlImg}`} alt="tetris" />
-            <h1 className=''>{swipeArray[indexOfSwipe].contextH1}</h1>
-            {indexOfSwipe ===3 ? <p>in progress</p> : null};
+            <h1 className='carouselH1'>{swipeArray[indexOfSwipe].contextH1}</h1>
             <button className='code'><a href={`${swipeArray[indexOfSwipe].urlCode}`}>View Code</a></button>
             <button className = 'demo'><a href={`${swipeArray[indexOfSwipe].urlDemo}`}>Demo</a></button>
 
