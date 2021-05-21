@@ -70,7 +70,7 @@
   );
 }
 
-#blade {
+div#blade {
   overflow-x: visible !important;
   position: absolute;
   background: white;
@@ -91,7 +91,7 @@
   transform: scaleY(0);
 }
 
-#blade::after {
+div#blade::after {
   display: block;
   content: "";
   position: absolute;
@@ -106,7 +106,7 @@
   animation: pulse linear 5s infinite;
 }
 
-#blade::before {
+div#blade::before {
   content: "";
   position: absolute;
   top: 0;
@@ -124,7 +124,7 @@
   }
 }
 
-#blade.becomeJedi {
+div#blade.becomeJedi {
   transform: scaleY(1);
 }
 

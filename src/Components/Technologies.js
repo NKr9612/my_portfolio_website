@@ -36,41 +36,41 @@ const Technologie = () => {
             </h1>
             </Flip>
             <nav className='technologyContainer'>
-                <ul>
+                <ul className='technologyUl'>
                    <li className="html5">
-                       <FaHtml5 size='5em' color='#DF4E26'style={styles} />
+                       <FaHtml5  color='#DF4E26'style={styles}  className='faIcons'/>
                        <p>HTML5</p>
                    </li>
                    <li className="css3">
-                       <FaCss3Alt size='5em' color='#0C6FB2' style={styles}/>
+                       <FaCss3Alt  color='#0C6FB2' style={styles} className='faIcons'/>
                        <p>CSS3</p>
                    </li>
                    <li className="js">
-                       <FaJs size='5em' color='#EFD81D' style={styles}/>
+                       <FaJs  color='#EFD81D' style={styles} className='faIcons'/>
                        <p>JavaScript</p>
                    </li>
                    <li className="react">
-                       <FaReact size='5em' color='#00D1F7'style={styles}/>
+                       <FaReact  color='#00D1F7'style={styles} className='faIcons'/>
                        <p>React</p>
                    </li>
                    <li className="git">
-                       <FaGitAlt size='5em' color='#E84D31'style={styles}/>
+                       <FaGitAlt  color='#E84D31'style={styles} className='faIcons'/>
                        <p>Git</p>
                    </li>
                    <li className="bootstrap">
-                       <FaBootstrap size='5em' color='#58407E' style={styles}/>
+                       <FaBootstrap  color='#58407E' style={styles} className='faIcons'/>
                        <p>Bootstrap</p>
                    </li>
                    <li className="sass">
-                       <FaSass size='5em' color='#C96195' style={styles}/>
+                       <FaSass  color='#C96195' style={styles} className='faIcons'/>
                        <p>Sass</p>
                    </li>
                    <li className="npm">
-                       <FaNpm size='5em' color='#C53635'style={styles}/>
+                       <FaNpm  color='#C53635'style={styles} className='faIcons'/>
                        <p>npm</p>
                    </li>
                    <li className="rwd">
-                       <FaMobileAlt size='5em' color='##000000'style={styles}/>
+                       <FaMobileAlt color='##000000'style={styles} className='faIcons'/>
                        <p>RWD</p>
                    </li>
                 </ul>

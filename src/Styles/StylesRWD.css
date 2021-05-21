@@ -1,17 +1,194 @@
-@media (max-wdith: 1024px) {
-  .frontendName {
+@media (max-width: 1024px) {
+  h3.frontendName {
     font-size: 40px;
   }
-  .fullName {
+  div.fullName {
     font-size: 40px;
   }
-  .technologyContainer {
-    font-size: 30px;
+  li .faIcons {
+    width: 4em;
+    height: 4em;
   }
   .projectsMain .carousel .carouselH1 {
-    font-size: 35px;
+    font-size: 30px;
+    right: 12vw;
   }
-  .projectsMain .carousel .demo {
-    right: 10vw;
+  .projectsMain .carousel button.demo {
+    right: 9vw;
   }
+
+  .projectsMain .carousel button.code {
+    right: 18vw;
+  }
+}
+@media (max-width: 768px) {
+  h1.technologyHeader,
+  h1.contactHeader,
+  h1.projectsHeader {
+    left: 36%;
+    font-size: 30px;
+  }
+  .projectsMain .carousel img {
+    width: 55%;
+    height: 59%;
+    margin-left: 7%;
+  }
+
+  .technologyContainer ul.technologyUl {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-areas:
+      "html html html css css css "
+      "html html html css css css "
+      "html html html css css css "
+      "js js js react react react "
+      "js js js react react react "
+      "js js js react react react "
+      "git git git bootstrap bootstrap bootstrap"
+      "git git git bootstrap bootstrap bootstrap"
+      "git git git bootstrap bootstrap bootstrap"
+      "sass sass sass npm npm npm "
+      "sass sass sass npm npm npm "
+      "sass sass sass npm npm npm "
+      "rwd rwd rwd . . ."
+      "rwd rwd rwd . . ."
+      "rwd rwd rwd . . .";
+  }
+  .technologyContainer ul li p {
+    display: none;
+  }
+
+  .projectsMain .carousel .carouselH1 {
+    font-size: 27px;
+    right: 9vw;
+  }
+  .projectsMain .carousel button.demo {
+    top: 60%;
+    right: 15vw;
+  }
+  .projectsMain .carousel button.code {
+    right: 13vw;
+  }
+  .projectsMain span.right {
+    right: 0%;
+  }
+  .projectsMain span.left {
+    left: -14px;
+  }
+  div#contact.contactContainer {
+    min-height: 75vh;
+  }
+  p.arrowToLightsaber {
+    bottom: 15vh;
+  }
+}
+@media (max-width: 700px) {
+  h3.frontendName {
+    font-size: 30px;
+  }
+  div.fullName {
+    font-size: 30px;
+  }
+  div.lightsaber {
+    top: 0;
+  }
+}
+
+@media (max-width: 390px) and (orientation: portrait) {
+  div#home.homeWrapper {
+    overflow-y: hidden !important;
+  }
+  div#sky {
+    overflow-y: hidden;
+  }
+  h3.frontendName {
+    font-size: 20px;
+  }
+  div.fullName {
+    font-size: 20px;
+  }
+  h1.technologyHeader,
+  h1.contactHeader,
+  h1.projectsHeader {
+    left: 34%;
+    font-size: 25px;
+  }
+  main.projectsMain {
+    height: 50%;
+  }
+  .projectsMain div.carousel img {
+    margin-left: 20%;
+  }
+  .projectsMain div.carousel .carouselH1 {
+    font-size: 23px;
+    right: 32vw;
+    top: 35%;
+  }
+  .projectsMain .carousel button.code {
+    right: 31vw;
+    top: 21vh;
+  }
+  .projectsMain .carousel button.demo {
+    top: 62%;
+    right: 37vw;
+  }
+  p.arrowToLightsaber {
+    left: 3vw;
+  }
+  button.hilt {
+    left: 20px;
+    height: 5rem;
+  }
+  div#blade {
+    height: 275px;
+    bottom: 5rem;
+    left: 20px;
+  }
+
+  .contactMe.becomeJedi p {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .contactMe.becomeJedi p span {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 736px) and (orientation: landscape) {
+  img.menuOrClose {
+    top: -2vh;
+  }
+  nav.navbarMine {
+    min-height: 13vh;
+  }
+  h3.frontendName {
+    font-size: 25px;
+  }
+  div.fullName {
+    font-size: 25px;
+  }
+  .projectsMain div.carousel .carouselH1 {
+    right: 4vw;
+  }
+  .technologyContainer ul.technologyUl {
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "html html html css css css js js js react react react git git git"
+      "html html html css css css js js js react react react git git git"
+      "html html html css css css js js js react react react git git git"
+      "bootstrap bootstrap bootstrap sass sass sass npm npm npm rwd rwd rwd . . ."
+      "bootstrap bootstrap bootstrap sass sass sass npm npm npm rwd rwd rwd . . ."
+      "bootstrap bootstrap bootstrap sass sass sass npm npm npm rwd rwd rwd . . .";
+  }
+  /* button.hilt {
+    height: 5rem;
+    bottom: 46vh;
+  }
+  p.arrowToLightsaber {
+    bottom: 35vh;
+  }
+  div#blade {
+    width: 0.75rem;
+    bottom: 16rem;
+  } */
 }

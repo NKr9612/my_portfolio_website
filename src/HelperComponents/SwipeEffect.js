@@ -25,7 +25,7 @@ const swipeArray = [
         urlImg: ImgRouter,
         urlCode:'https://github.com/NKr9612/ReactRouter_SPA',
         urlDemo:'https://nkr9612.github.io/ReactRouter_SPA/',
-        contextH1:'Strona z ReactRouter ',
+        contextH1:'SPA_ReactRouter ',
     },
 ]
 
