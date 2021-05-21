@@ -122,14 +122,14 @@
   .projectsMain div.carousel .carouselH1 {
     font-size: 23px;
     right: 32vw;
-    top: 35%;
+    top: 37%;
   }
   .projectsMain .carousel button.code {
     right: 31vw;
-    top: 21vh;
+    top: 23vh;
   }
   .projectsMain .carousel button.demo {
-    top: 62%;
+    top: 67%;
     right: 37vw;
   }
   p.arrowToLightsaber {
@@ -138,10 +138,11 @@
   button.hilt {
     left: 20px;
     height: 5rem;
+    bottom: 5vh;
   }
   div#blade {
     height: 275px;
-    bottom: 5rem;
+    bottom: 4rem;
     left: 20px;
   }
 
@@ -180,15 +181,16 @@
       "bootstrap bootstrap bootstrap sass sass sass npm npm npm rwd rwd rwd . . ."
       "bootstrap bootstrap bootstrap sass sass sass npm npm npm rwd rwd rwd . . .";
   }
-  /* button.hilt {
+  button.hilt {
     height: 5rem;
-    bottom: 46vh;
+    bottom: 12vh;
   }
   p.arrowToLightsaber {
-    bottom: 35vh;
+    bottom: 21vh;
   }
   div#blade {
+    height: 250px;
     width: 0.75rem;
-    bottom: 16rem;
-  } */
+    bottom: 10rem;
+  }
 }

@@ -104,17 +104,3 @@
 .glint.active {
   opacity: 1;
 }
-
-@media (max-width: 736px) and (orientation: landscape) {
-  button.hilt {
-    height: 5rem;
-    bottom: 46vh;
-  }
-  p.arrowToLightsaber {
-    bottom: 35vh;
-  }
-  div#blade {
-    width: 0.75rem;
-    bottom: 16rem;
-  }
-}
