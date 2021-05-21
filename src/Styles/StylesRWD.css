@@ -132,6 +132,10 @@
     top: 67%;
     right: 37vw;
   }
+  .contactContainer {
+    overflow-y: hidden;
+    padding-top: 20px;
+  }
   p.arrowToLightsaber {
     left: 3vw;
   }
